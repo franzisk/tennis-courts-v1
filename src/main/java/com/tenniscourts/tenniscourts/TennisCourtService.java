@@ -30,4 +30,6 @@ public class TennisCourtService {
         tennisCourtDTO.setTennisCourtSchedules(scheduleService.findSchedulesByTennisCourtId(tennisCourtId));
         return tennisCourtDTO;
     }
+
+
 }
